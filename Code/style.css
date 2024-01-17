@@ -5,6 +5,29 @@ body{
   font-family: 'Mulish', sans-serif;
 }
 
+/* The nav section */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-div1{
+  display: flex;
+  flex-shrink: 0;
+}
+
+.nav-div2{
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 20px;
+}
+
 
 /* Banner style Start */
 .banner-tilte{
