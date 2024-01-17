@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  padding: 0 135px;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+/* Banner style Start */
+.banner-tilte{
+  color: #FFF;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+
+.banner-description{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding:0 220px;
+}
+
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+  
+}
+
+.input-field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 24px;
+  background-color: rgba(255, 255, 255, 0.30);
+}
+
+.input{
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: rgba(19, 19, 24, 0.50);
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.search-btn ,.read-btn{
+  color: #FFF;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+}
+/* Banner style end */
+
+
+/* Popular tour Section Style start */
+
+.popular-tour{
+  display: flex;
+  margin-top: 130px;
+  gap: 80px;
+}
+
+.tour-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.gray-text{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
