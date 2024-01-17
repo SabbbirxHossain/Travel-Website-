@@ -25,7 +25,9 @@ body{
 }
 
 .banner{
-  width: 100%;
+  width: 1170px;
+  height: 500px;
+  flex-shrink: 0;
   height: 500px;
   background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
   
@@ -51,7 +53,7 @@ body{
 
 }
 
-.search-btn ,.read-btn{
+.search-btn ,.read-btn ,.see-more{
   color: #FFF;
   width: 174px;
   height: 52px;
@@ -138,12 +140,18 @@ line-height: 26px;
 }
 
 .div-hotel{
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
 }
 
 .div-location{
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
@@ -159,6 +167,105 @@ line-height: 26px;
   flex-shrink: 0;
 }
 
+
+/* A Simple Perfect Place To Get Lost Section */
+
+.lost-title{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.lost-ul{
+  color: #131318;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+}
+
+.lost-section{
+  display: flex;
+  gap: 30px;
+  padding: 80px 10px;
+}
+
+/* 
+Newsletter section */
+.newletter{
+  display: flex;
+  gap: 100px;
+  margin: 60px 0;
+}
+
+.newletter-title{
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.newletter-descrip{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.news-letter-form{
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+.input-news{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 20px 0;
+}
+
+.sub-btn{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  margin: 20px 0 ;
+}
+
+.discount-btn> .pera11{
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.discount-btn>.pera12{
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.discount-btn{
+  width: 324px;
+  height: 120px;
+  transform: rotate(-20deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FF5400;
+  position: relative;
+  left: 340px;
+  bottom: 200px;
+}
 
 
 
